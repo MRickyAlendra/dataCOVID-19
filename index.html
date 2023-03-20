@@ -5,21 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Data COVID-19 Indonesia</title>
+    <link rel="stylesheet" href="style.css" />
     <script src="api.js" defer></script>
+    <!-- <script></script> -->
   </head>
   <body>
-    <h1>DATA COVID 19 INDONESIA</h1>
-
-    <h1 id="data-positif">Positif :</h1>
-    <h1 id="data-sembuh">Sembuh :</h1>
-    <h1 id="data-meninggal">Meninggal :</h1>
-    <table border="1" id="table-provinsi"></table>
+    <h1>Covid-19 Summary</h1>
+    <h2 id="totalCases">Case :</h2>
+    <h2 id="totalDeaths">Death :</h2>
+    <h2 id="totalRecovered">Healed :</h2>
+    <div id="countries"></div>
   </body>
-  <!-- <script src="api.js"></script> -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      getDataIndonesia();
-      getDataProvinsi();
-    });
-  </script>
 </html>
